@@ -6,10 +6,11 @@ name 'ug-listMenu'
 description 'List Menu for UgCore by UgDev'
 author 'UgDev'
 version '3.5'
-url 'https://github.com/UgDevOfc/ug-menu'
+url 'https://github.com/ugcore-framework/ug-menu'
 ui_page 'html/index.html'
 
 client_script 'client/main.lua'
+server_script 'server/version.lua'
 
 files { 
     'html/index.html', 
